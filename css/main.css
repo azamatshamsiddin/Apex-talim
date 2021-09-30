@@ -681,3 +681,47 @@ template {
   flex-wrap: wrap;
   margin-top: 30px;
 }
+
+.results__heading {
+  margin-bottom: 85px;
+}
+
+.results__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.results-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 370px;
+  box-shadow: 0px 3.55979px 10.6794px rgba(0, 0, 0, 0.13);
+}
+
+.results-card__img {
+  border-radius: 50%;
+  margin-top: -55px;
+}
+
+.results-card__text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 37px;
+}
+
+.results-card__author {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.results-card__info {
+  margin-bottom: 10px;
+}
