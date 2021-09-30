@@ -1,7 +1,7 @@
 // Abstracts
 @import './abstracts/variables';
-@import './abstracts/utils';
 @import './abstracts/mixins';
+
 // Base
 @import './base/base';
 @import './base/typography';
@@ -18,16 +18,9 @@
 @import './layout/footer';
 @import './layout/forms';
 @import './layout/list';
+@import './layout/_main-section';
 
 // PAGES
 @import './pages/home';
 @import './pages/about';
 @import './pages/contact';
-
-// THEMES
-@import './themes/theme';
-@import './themes/dark';
-
-// VENDORS
-@import './vendors/bootstrap';
-@import './vendors/semantic-ui';

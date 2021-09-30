@@ -1,0 +1,21 @@
+.btn {
+  background-color: $color-secondary;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+
+  color: $color-black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  transition: all ease .3s;
+
+  &:hover {
+    background-color: #ffe4be;
+    border: 2px solid $color-secondary;
+  }
+}

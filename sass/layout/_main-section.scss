@@ -1,0 +1,150 @@
+.main-content {
+  margin: 150px 0;
+
+  &-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  &-card {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 370px;
+
+    &__img {
+      object-fit: cover;
+    }
+
+    &__text {
+      padding: 37px;
+    }
+
+    &__info {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 120%;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    &-item {
+      width: 35px;
+      height: 4px;
+      display: inline-block;
+      background-color: $color-grey;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      &--active {
+        background-color: $color-primary;
+      }
+    }
+
+  }
+}
+
+.news__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 40px;
+}
+
+.news-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  &__img {
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.13));
+    object-fit: cover;
+  }
+
+  &__heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    margin: 20px 0 10px;
+    color: $color-black;
+  }
+
+
+  &__date {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: $color-grey;
+  }
+}
+
+// =========================
+// =========================
+.courses {
+  &__btn {
+    padding: 15px 0 14px;
+    width: 100%;
+  }
+
+  &__info {
+    margin: 10px 0 30px;
+  }
+}
+
+// =========================
+// =========================
+.teachers {
+  &__heading {
+    margin-bottom: 20px;
+  }
+
+  &__info:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+// =========================
+// =========================
+.lesson-photos {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  &__list-item{
+    margin-bottom: 30px;
+  }
+}
+
+.lesson-videos {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+}
+
+// .lesson-videos {
+// }
+// .results {
+// }
+// .comments {
+// }

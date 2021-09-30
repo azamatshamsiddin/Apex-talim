@@ -1,13 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>7-1</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    Some text here!
-  </body>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APEX ta'lim</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-body">
+        <div class="header-top">
+          <a class="header-top__logo" href="#">
+            <img class="header-top__logo-img" width="281" height="100" src="./images/logo-header.svg" alt="logo">
+          </a>
+          <ul class="nav">
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Yangiliklar</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Kurslar</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Ustozlar</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Fotolavhalar</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Videolavhalar</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Natijalar</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Izohlar</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-list__item">Aloqa</a>
+            </li>
+          </ul><!-- end of nav -->
+        </div>
+
+        <div class="header-hero hero">
+          <h1 class="hero__heading">Talaba bo‘lishingizga albatta ishonamiz</h1>
+          <p class="hero__subtitle">Shaxmatda yo'lga chiqqan piyoda, bir kun kelib albatta vazir bo'ladi.</p>
+          <button class="hero__btn btn">Kursga yozilish</button>
+        </div>
+      </div><!-- end of header-body -->
+    </div><!-- end of container -->
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="news main-content">
+        <h3 class="news__heading secondary-heading">
+          Yangiliklar
+        </h3>
+        <div class="news__wrapper">
+          <div class="news-info">
+            <img class="news-info__img" width="370" height="178" src="./images/news/card_img_1.png"
+              alt="Mental arifmetikani oson o‘rganamiz">
+            <h4 class="news-info__heading">Mental arifmetikani oson o‘rganamiz</h4>
+            <p class="news-info__date">22.09.2021</p>
+          </div>
+          <div class="news-info">
+            <img class="news-info__img" width="370" height="178" src="./images/news/card_img_2.png"
+              alt="Mental arifmetikani oson o‘rganamiz">
+            <h4 class="news-info__heading">IELTS imtihoni haqida</h4>
+            <p class="news-info__date">20.09.2021</p>
+          </div>
+          <div class="news-info">
+            <img class="news-info__img" width="370" height="178" src="./images/news/card_img_3.png"
+              alt="Mental arifmetikani oson o‘rganamiz">
+            <h4 class="news-info__heading">Ingliz tilini bilish zamon talabi</h4>
+            <p class="news-info__date">12.09.2021</p>
+          </div>
+        </div>
+        <div class="main-content__pagination">
+          <span class="main-content__pagination-item main-content__pagination-item--active"></span>
+          <span class="main-content__pagination-item"></span>
+          <span class="main-content__pagination-item"></span>
+        </div>
+      </div> <!-- end of news-->
+
+      <!-- ======================================================
+      ============================================================ -->
+
+      <div class="courses main-content">
+        <h3 class="courses__heading secondary-heading">
+          Kurslar
+        </h3>
+        <div class="courses__cards main-content-cards">
+          <div class="courses__card main-content-card">
+            <img class="courses__img main-content-card__img" width="370" height="178"
+              src="./images/courses/courses_img_1.jpg" alt="image">
+            <div class="main-content-card__text">
+              <h4 class="courses__heading main-content-card__heading">Matematika</h4>
+              <p class="courses__info main-content-card__info">Matematika fanini mukammal o‘rganish yangi metodikasi
+                bilan
+                o‘rganamiz.</p>
+              <button class="courses__btn btn">Kursga yozilish</button>
+            </div>
+          </div>
+          <div class="courses__card main-content-card">
+            <img class="courses__img main-content-card__img" width="370" height="178"
+              src="./images/courses/courses_img_2.jpg" alt="image">
+            <div class="main-content-card__text">
+              <h4 class="courses__heading main-content-card__heading">Fizika</h4>
+              <p class="courses__info main-content-card__info">Fizika fanini mukammal o‘rganish yangi metodikasi bilan
+                o‘rganamiz.</p>
+              <button class="courses__btn btn">Kursga yozilish</button>
+            </div>
+          </div>
+          <div class="courses__card main-content-card">
+            <img class="courses__img main-content-card__img" width="370" height="178"
+              src="./images/courses/courses_img_3.jpg" alt="image">
+
+            <div class="main-content-card__text">
+              <h4 class="courses__heading main-content-card__heading">Ingliz tili</h4>
+              <p class="courses__info main-content-card__info">Ingliz tili fanini mukammal o‘rganish yangi metodikasi
+                bilan o‘rganamiz.</p>
+              <button class="courses__btn btn">Kursga yozilish</button>
+            </div>
+          </div>
+        </div>
+        <div class="main-content__pagination">
+          <span class="main-content__pagination-item main-content__pagination-item--active"></span>
+          <span class="main-content__pagination-item"></span>
+          <span class="main-content__pagination-item"></span>
+        </div>
+      </div> <!-- end of courses-->
+
+      <!-- =======================================================
+      =========================================================== -->
+      <div class="teachers main-content">
+        <h3 class="teachers__heading secondary-heading">
+          Ustozlar
+        </h3>
+        <div class="teachers__cards main-content-cards">
+          <div class="teachers__card main-content-card">
+            <img class="teachers__img main-content-card__img" width="370" height="214"
+              src="./images/teachers/teachers_img_1.jpg" alt="image">
+            <div class="main-content-card__text">
+              <h4 class="teachers__heading main-content-card__heading">Asadov Qodir</h4>
+              <p class="teachers__info main-content-card__info">Matematika fani o‘qituvchisi</p>
+              <p class="teachers__info main-content-card__info">Ish tajribasi: 8 yil</p>
+              <p class="teachers__info main-content-card__info">O‘qitgan talabalari soni: 500+</p>
+            </div>
+          </div>
+          <div class="teachers__card main-content-card">
+            <img class="teachers__img main-content-card__img" width="370" height="214"
+              src="./images/teachers/teachers_img_2.jpg" alt="image">
+            <div class="main-content-card__text">
+              <h4 class="teachers__heading main-content-card__heading">Ergashev Jasur</h4>
+              <p class="teachers__info main-content-card__info">Fizika fani o‘qituvchisi</p>
+              <p class="teachers__info main-content-card__info">Ish tajribasi: 5 yil</p>
+              <p class="teachers__info main-content-card__info">O‘qitgan talabalari soni: 400+</p>
+            </div>
+          </div>
+          <div class="teachers__card main-content-card">
+            <img class="teachers__img main-content-card__img" width="370" height="214"
+              src="./images/teachers/teachers_img_3.jpg" alt="image">
+            <div class="main-content-card__text">
+              <h4 class="teachers__heading main-content-card__heading">Murodov Alibek</h4>
+              <p class="teachers__info main-content-card__info">Ingliz tili fani o‘qituvchisi</p>
+              <p class="teachers__info main-content-card__info">Ish tajribasi: 4 yil</p>
+              <p class="teachers__info main-content-card__info">O‘qitgan talabalari soni: 300+</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-content__pagination">
+          <span class="main-content__pagination-item main-content__pagination-item--active"></span>
+          <span class="main-content__pagination-item"></span>
+          <span class="main-content__pagination-item"></span>
+        </div>
+      </div> <!-- end of teachers-->
+
+      <!-- =======================================================
+      =========================================================== -->
+      <div class="lesson-photos main-content">
+        <h3 class="lesson-photos__heading secondary-heading">
+          Darslardan fotolavhalar
+        </h3>
+        <div class="lesson-photos__wrapper">
+          <ul class="lesson-photos__list">
+            <li class="lesson-photos__list-item"><img src="./images/lesson_photos/lesson_photos_1.jpg" width="370"
+                height="273" alt="image"></li>
+            <li class="lesson-photos__list-item"><img src="./images/lesson_photos/lesson_photos_2.jpg" width="370"
+                height="273" alt="image"></li>
+            <li class="lesson-photos__list-item"><img src="./images/lesson_photos/lesson_photos_3.jpg" width="370"
+                height="273" alt="image"></li>
+            <li class="lesson-photos__list-item"><img src="./images/lesson_photos/lesson_photos_4.jpg" width="370"
+                height="273" alt="image"></li>
+            <li class="lesson-photos__list-item"><img src="./images/lesson_photos/lesson_photos_5.jpg" width="370"
+                height="273" alt="image"></li>
+            <li class="lesson-photos__list-item"><img src="./images/lesson_photos/lesson_photos_6.jpg" width="370"
+                height="273" alt="image"></li>
+          </ul>
+        </div>
+      </div> <!-- end of lesson-photos-->
+
+      <!-- =======================================================
+      =========================================================== -->
+      <div class="lesson-videos main-content">
+        <h3 class="lesson-videos__heading secondary-heading">
+          Darslardan videolavhalar
+        </h3>
+        <div class="lesson-videos__wrapper">
+          <ul class="lesson-videos__list">
+            <li class="lesson-videos__list-item">
+              <iframe width="370" height="273" src="https://www.youtube.com/embed/PlgUFxJqAJ0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </li>
+            <li class="lesson-videos__list-item">
+              <iframe width="370" height="273" src="https://www.youtube.com/embed/PlgUFxJqAJ0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </li>
+            <li class="lesson-videos__list-item">
+              <iframe width="370" height="273" src="https://www.youtube.com/embed/PlgUFxJqAJ0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </li>
+          </ul>
+        </div>
+        <div class="main-content__pagination">
+          <span class="main-content__pagination-item main-content__pagination-item--active"></span>
+          <span class="main-content__pagination-item"></span>
+          <span class="main-content__pagination-item"></span>
+        </div>
+      </div> <!-- end of lesson-videos-->
+      <!-- =======================================================
+      =========================================================== -->
+      <div class="results main-content">
+
+      </div> <!-- end of results-->
+      <div class="comments main-content"></div> <!-- end of comments-->
+
+    </div>
+  </main> <!-- end of main-->
+
+  <script src="./scripts/script.js"></script>
+</body>
+
 </html>
