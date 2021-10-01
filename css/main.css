@@ -15,6 +15,12 @@ html {
 ul,
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
 }
 
 img {
@@ -553,6 +559,78 @@ template {
   opacity: .8;
 }
 
+.footer {
+  background-color: #00445B;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer__heading {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer__btn {
+  padding: 15px 44px 14px;
+}
+
+.footer-bottom {
+  margin-top: 100px;
+}
+
+.footer-bottom__copy {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  margin-bottom: -50px;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.contact__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  max-width: 370px;
+  width: 100%;
+}
+
+.contact__input:not(:first-child) {
+  max-width: 270px;
+}
+
+.contact__input::placeholder {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: rgba(100, 100, 100, 0.5);
+}
+
 .main-content {
   margin: 150px 0;
 }
@@ -724,4 +802,136 @@ template {
 
 .results-card__info {
   margin-bottom: 10px;
+}
+
+.comments-card__info--grey {
+  color: #646464;
+  margin: 10px 0 20px;
+}
+
+.comments-card__star {
+  margin-top: 20px;
+}
+
+.map__img {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.map-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.map-info__link {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.map-info__link:hover {
+  text-decoration: underline;
+}
+
+.map-info__address {
+  position: relative;
+  max-width: 280px;
+  width: 100%;
+  margin-left: 35px;
+}
+
+.map-info__address::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  background-image: url("../../images/icons/i-location.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  margin-left: -34px;
+}
+
+.map-info__tel {
+  position: relative;
+}
+
+.map-info__tel::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../images/icons/i-phone.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center -2px;
+  display: inline-block;
+  margin-left: -24px;
+}
+
+.map-info__mail {
+  position: relative;
+}
+
+.map-info__mail::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../images/icons/i-mail.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center -3px;
+  display: inline-block;
+  margin-left: -34px;
+}
+
+.map-info-list {
+  display: flex;
+}
+
+.map-info-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.map-info-list__item-link {
+  position: relative;
+}
+
+.map-info-list__item-link::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  right: 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.map-info-list__text {
+  margin-right: 30px;
+}
+
+.map-info-list__inst::before {
+  background-image: url("../../images/icons/i-instagram.svg");
+}
+
+.map-info-list__tg::before {
+  background-image: url("../../images/icons/i-telegram.svg");
+}
+
+.map-info-list__face::before {
+  background-image: url("../../images/icons/i-facebook.svg");
 }

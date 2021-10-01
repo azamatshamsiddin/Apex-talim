@@ -194,11 +194,155 @@
 }
 
 
+// =======================
+// =======================
+.comments-card {
+  &__info {
+    &--grey {
+      color: $color-grey;
+      margin: 10px 0 20px;
+    }
+  }
+
+  &__star {
+    margin-top: 20px;
+  }
+}
+
+// ======================
+// ======================
+.map {
+  &__img {
+    margin: 30px 0;
+    width: 100%;
+  }
+}
 
 
-// .lesson-videos {
-// }
-// .results {
-// }
-// .comments {
-// }
+.map-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: $color-black;
+
+  &__link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: $color-black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__address {
+    position: relative;
+    max-width: 280px;
+    width: 100%;
+    margin-left: 35px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 25px;
+      background-image: url("../../images/icons/i-location.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+
+      display: inline-block;
+      margin-left: -34px;
+    }
+  }
+
+  &__tel {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      background-image: url("../../images/icons/i-phone.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center -2px;
+
+      display: inline-block;
+      margin-left: -24px;
+    }
+
+  }
+
+  &__mail {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      background-image: url("../../images/icons/i-mail.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center -3px;
+
+      display: inline-block;
+      margin-left: -34px;
+    }
+  }
+
+  &-list {
+    display: flex;
+
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &__item-link {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        right: 0;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+
+    }
+
+    &__text {
+      margin-right: 30px;
+    }
+
+    &__inst::before {
+      background-image: url("../../images/icons/i-instagram.svg");
+    }
+
+
+    &__tg::before {
+      background-image: url("../../images/icons/i-telegram.svg");
+    }
+
+    &__face::before {
+      background-image: url("../../images/icons/i-facebook.svg");
+    }
+  }
+}
+
+// =======================
+// =======================
